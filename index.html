@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Notch SMS Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>SMS Verification Service</h1>
+        <p>Get a temporary number for any app or website verification.</p>
+    </header>
+
+    <main>
+        <section id="number-selection">
+            <h2>Select a Country</h2>
+            <div id="country-grid">
+                <div class="country-card" data-country="usa">
+                    <span class="flag">🇺🇸</span>
+                    <span class="country-name">United States</span>
+                </div>
+                <div class="country-card" data-country="uk">
+                    <span class="flag">🇬🇧</span>
+                    <span class="country-name">United Kingdom</span>
+                </div>
+                <div class="country-card" data-country="france">
+                    <span class="flag">🇫🇷</span>
+                    <span class="country-name">France</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="verification-display" class="hidden">
+            <div id="number-details">
+                <h3>Your Temporary Number</h3>
+                <p id="number-display">+1 (555) 555-5555</p>
+                <button id="copy-button">Copy Number</button>
+            </div>
+
+            <div id="messages-section">
+                <h3>Messages</h3>
+                <div id="messages-container">
+                    <div class="message incoming-message">
+                        <p>Waiting for your first message...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SMS Verification. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
