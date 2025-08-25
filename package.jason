@@ -1,0 +1,17 @@
+{
+  "name": "my-sms-app",
+  "version": "1.0.0",
+  "description": "A top-notch SMS verification app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Crown Benard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
